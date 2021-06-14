@@ -28,14 +28,27 @@ var listaStudenti =
     },
     {
         nome : 'pluto',
-        cognome : 'rossi',
+        cognome : 'blu',
         eta : 80
     },
     {
         nome : 'paperino',
-        cognome : 'rossi',
+        cognome : 'giallo',
         eta : 15
     }
 ];
 
-console.log(listaStudenti);
+
+// FINE PUNTO 3
+
+
+for(var i = 0; i< listaStudenti.length; i++){
+    console.log(listaStudenti[i].nome);
+    console.log(listaStudenti[i].cognome);
+}
+
+// FINE PUNTO 4
+
+var nomeUtente = prompt ('inserisci nome');
+var cognomeUtente = prompt ('inserisci nome');
+var etaUtente = prompt ('inserisci nome');
