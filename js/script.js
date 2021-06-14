@@ -51,4 +51,12 @@ for(var i = 0; i< listaStudenti.length; i++){
 
 var nomeUtente = prompt ('inserisci nome');
 var cognomeUtente = prompt ('inserisci nome');
-var etaUtente = prompt ('inserisci nome');
+var etaUtente = parseInt(prompt ('inserisci nome'));
+
+listaStudenti.push({
+    nome : nomeUtente,
+    cognome : cognomeUtente,
+    eta : etaUtente,
+});
+
+console.log(listaStudenti);
